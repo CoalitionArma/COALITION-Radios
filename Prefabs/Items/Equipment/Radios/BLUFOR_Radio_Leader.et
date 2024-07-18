@@ -1,4 +1,4 @@
-GenericEntity : "{0FA212334ACFBABB}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_GI.et" {
+GenericEntity : "{0FA212334ACFBABB}Prefabs/Items/Equipment/Radios/BLUFOR_Radio_GI.et" {
  ID "508AB2013EEE1E00"
  components {
   BaseRadioComponent "{5A30BAE7673C63CA}" {
@@ -6,7 +6,7 @@ GenericEntity : "{0FA212334ACFBABB}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_
     RadioTransceiver "{61E55328B9AD0B46}" {
      "Transmitting Range" 5000
     }
-    BaseTransceiver "{61E553288BA86D51}" {
+    RadioTransceiver "{61E553288BA86D51}" {
      ChannelFrequency 48000
      "Transmitting Range" 5000
      "Min tunable frequency" 32000
