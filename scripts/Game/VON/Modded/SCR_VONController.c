@@ -34,21 +34,4 @@ modded class SCR_VONController
 				VONChannel(false);
 		}
 	}
-	
-	//------------------------------------------------------------------------------------------------
-	//! VON switch between direct/channel mode
- 	override protected void OnVONSwitch(float value, EActionTrigger reason)
-	{
-		m_bIsActiveModeDirect = !m_bIsActiveModeDirect;
-		
-		if (m_bIsToggledDirect || m_bIsToggledChannel)
-			OnVONToggleGamepad(0, EActionTrigger.UP);
-		else
-		{
-			OnVONGamepad(0, EActionTrigger.PRESSED); 
-			GetGame().GetCallqueue().CallLater(OnVONGamepad, 100, false, 0, EActionTrigger.UP);	// visualisation of switching from direct to radio VON when using controller
-		}
-	}
-	
-	//------------------------------------------------------------------------------------------------
 };
