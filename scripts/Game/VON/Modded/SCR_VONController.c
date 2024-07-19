@@ -9,8 +9,6 @@ modded class SCR_VONController
 	protected AudioHandle m_AudioHandleRadioSqawk;
 	protected AudioHandle m_AudioHandleRadioSqawkRadioSqawkOff;
 	
-	//------------------------------------------------------------------------------------------------
-	//! VON channel speech listener callback
  	override protected void OnVONChannel(float value, EActionTrigger reason)
 	{
 		if (reason == EActionTrigger.DOWN)
