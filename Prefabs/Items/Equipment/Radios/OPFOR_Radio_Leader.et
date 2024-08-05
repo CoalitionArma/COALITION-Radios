@@ -7,7 +7,7 @@ GenericEntity : "{C166493B95671DEE}Prefabs/Items/Equipment/Radios/OPFOR_Radio_GI
      "Transmitting Range" 5000
     }
     RadioTransceiver "{61E5532BDA07B9A7}" {
-     "Transmitting Range" 5000
+     "Transmitting Range" 10000
      "Min tunable frequency" 38000
      "Max tunable frequency" 54000
     }

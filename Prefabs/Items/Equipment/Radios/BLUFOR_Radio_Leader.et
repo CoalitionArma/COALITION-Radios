@@ -8,7 +8,7 @@ GenericEntity : "{0FA212334ACFBABB}Prefabs/Items/Equipment/Radios/BLUFOR_Radio_G
     }
     RadioTransceiver "{61E553288BA86D51}" {
      ChannelFrequency 48000
-     "Transmitting Range" 5000
+     "Transmitting Range" 10000
      "Min tunable frequency" 32000
      "Max tunable frequency" 68000
     }
