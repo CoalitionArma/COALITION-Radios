@@ -10,7 +10,7 @@ modded class SCR_VONController
 	{
 		super.ActivateVON(transmitType);
 		
-		if (transmitType != EVONTransmitType.DIRECT)
+		if (transmitType != EVONTransmitType.DIRECT && transmitType != EVONTransmitType.NONE)
 			AudioSystem.PlaySound(m_sRadioSound);
 	}
 	
@@ -18,7 +18,7 @@ modded class SCR_VONController
 	{
 		super.DeactivateVON(transmitType);
 		
-		if (transmitType != EVONTransmitType.DIRECT)
+		if (transmitType != EVONTransmitType.DIRECT && transmitType != EVONTransmitType.NONE)
 			AudioSystem.PlaySound(m_sRadioSoundEnd);	
 	}
 };
